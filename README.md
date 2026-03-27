@@ -26,7 +26,13 @@
  
 
 
-## javascript, javascriptreact, typescript, typescriptreact
+## snippets
+**Lenguajes soportados**:
+ * javascript
+ * javascriptreact
+ * typescript
+ * typescriptreact
+
 ### Mui theme provider 
 prefix: `muithemeprovider`
 ```javascript
@@ -175,7 +181,11 @@ export default function ${TM_FILENAME_BASE}({children}: ${TM_FILENAME_BASE}Type)
 
 
 
-## javascript, typescript
+## javascript
+**Lenguajes soportados**:
+ * javascript
+ * typescript
+
 ### Environment variables zod 
 prefix: `envzod`
 ```javascript

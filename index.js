@@ -32,7 +32,10 @@ readme.write('\n # Snippets \n \n')
 
 for (let index = 0; index < snippetsAgrupados.length; index++) {
     const snippetFile = snippetsAgrupados[index];
-    readme.write(`\n\n## ${snippetFile.languages.join(', ')}\n`)
+    const fileName = snippetFile.path.split('/').at(-1).split('.')[0]
+    readme.write(`\n\n## ${fileName}\n`)
+    readme.write('**Lenguajes soportados**:\n')
+    readme.write(snippetFile.languages.map(a => ` * ${a}`).join('\n') + '\n\n')
     const snippetFilejson = require(snippetFile.path)
     for (const key in snippetFilejson) {
         if (!Object.hasOwn(snippetFilejson, key)) continue;
