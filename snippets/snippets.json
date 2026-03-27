@@ -1,6 +1,7 @@
 {
     "Mui theme provider": {
         "prefix": "muithemeprovider",
+        "description": "Mui theme provider",
         "body": [
             "'use client'",
             "",
@@ -24,6 +25,7 @@
     },
     "Mui react hook form": {
         "prefix": "muirhform",
+        "description": "Mui react hook form",
         "body": [
             "'use client'",
             "import React, { useState } from 'react'",
@@ -93,6 +95,7 @@
     },
     "Zod environment variables": {
         "prefix": "envzod",
+        "description": "Validar variables de entorno con zod",
         "body": [
             "import { z } from 'zod'",
             "",
@@ -114,11 +117,11 @@
             "",
             "export const envData = parsedEnv.data;",
             ""
-        ],
-        "description": "Environment variables zod"
+        ]
     },
     "React component ts": {
         "prefix": "rfcts",
+        "description": "Componente de react typescript",
         "body": [
             "type ${TM_FILENAME_BASE}Type = {",
             "",
@@ -134,6 +137,7 @@
     },
 	"React component TS with children": {
         "prefix": "rfctschildren",
+        "description": "Componente de react typescript con prospwithchildren",
         "body": [
             "import {PropsWithChildren} from 'react'",
             "",

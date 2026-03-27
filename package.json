@@ -6,7 +6,8 @@
     "version": "1.0.0",
     "publisher": "sarmancoder",
     "scripts": {
-        "package": "vsce package"
+        "package": "vsce package",
+        "genreadme": "node index.js"
     },
     "repository": {
         "url": "https://github.com/sarmancoder/myextensionpack"
@@ -44,5 +45,28 @@
                 "path": "./snippets/snippets.json"
             }
         ]
-    }
+    },
+    "extensionPack": [
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "biomejs.biome",
+        "usernamehw.errorlens",
+        "dsznajder.es7-react-js-snippets",
+        "miguelsolorio.fluent-icons",
+        "GitHub.codespaces",
+        "GitHub.github-vscode-theme",
+        "capaj.vscode-standardjs-snippets",
+        "diwanshumidha.nextboost-snippet",
+        "krishnaacharyaa.nextjs-13-power-snippets",
+        "Prisma.prisma",
+        "MS-CEINTL.vscode-language-pack-es",
+        "bradlc.vscode-tailwindcss",
+        "emmanuelbeziat.vscode-great-icons",
+        "Vue.volar",
+        "exer7um.vue-3-vscode-snippets",
+        "hakcorp.php-awesome-snippets",
+        "vsc-snippets.vsc-php-snippets",
+        "vscodeshift.material-ui-snippets",
+        "YoavBls.pretty-ts-errors"
+    ]
 }
